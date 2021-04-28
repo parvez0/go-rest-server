@@ -1,10 +1,11 @@
-# DevOps Assignment
+# Go Rest server
 This project contains the golang source code for the devOps assignment, you can refer the document [here](https://gist.github.com/VortoEng/53a027df8665b2bcca160b8256393f4f).
 
-###Prerequisite
+### Prerequisite
 You need Golang version > v1.13 installed on your computer. you will also need a working kubernetes cluster
 to deploy the these services as kubernetes pods.
 
+### Installation
 
 Download the source code using git 
 ```bash
@@ -55,7 +56,7 @@ GET /invalid-deliveries
 ]
 ```
 
-### Build docker image
+### Docker image
 For building the docker image run the following command in the root directory of the project
 ```bash
 $ docker build -t <tag> .
