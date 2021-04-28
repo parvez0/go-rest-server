@@ -9,7 +9,7 @@ to deploy the these services as kubernetes pods.
 
 Download the source code using git 
 ```bash
-$ git clone <youtgiturl>
+$ git clone <git_repo_url>
 ```
 After cloning the project you need to install the dependencies using the following command
 ```bash
