@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: parvez0/assignment:v1.0.3
+          image: rahulvadisetty91/assignment:v1.0.0
           imagePullPolicy: "IfNotPresent"
           ports:
             - containerPort: 5000
